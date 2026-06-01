@@ -176,6 +176,15 @@ h3 {
   color: var(--muted);
 }
 
+.quick-facts .looking-row {
+  grid-template-columns: 1fr;
+}
+
+.quick-facts .looking-row p {
+  color:#0e6e30;
+  font-weight: 700;
+}
+
 .link-row,
 .pub-links {
   display: flex;
