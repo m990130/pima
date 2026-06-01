@@ -181,8 +181,7 @@ h3 {
 }
 
 .quick-facts .looking-row p {
-  color:#0e6e30;
-  font-weight: 700;
+  color: var(--text);
 }
 
 .link-row,
