@@ -281,6 +281,25 @@ h3 {
   display: grid;
 }
 
+.experience-list {
+  display: grid;
+  border-top: 1px solid var(--soft-line);
+}
+
+.experience-item {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--soft-line);
+}
+
+.experience-item:last-child {
+  border-bottom: 0;
+}
+
+.experience-item p {
+  margin-bottom: 2px;
+  color: var(--muted);
+}
+
 .publication {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
